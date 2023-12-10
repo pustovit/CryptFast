@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cryptfast"
+version = "0.1.0"
+description = "Quickly encrypt your files"
+authors = ["Eugene Pustovit"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
